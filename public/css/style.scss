@@ -1,0 +1,30 @@
+@import './base/settings';
+@import './base/base';
+@import './components/header.scss';
+@import './components/main-container.scss';
+@import './components/elements.scss';
+
+.app-container {
+    // max-width: 500px;
+    margin: auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.form-inline .form-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-inline .form-group input {
+    display: flex;
+    flex-grow: 1;
+}
+.badge {
+    font-size: 20px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    cursor: pointer;
+}

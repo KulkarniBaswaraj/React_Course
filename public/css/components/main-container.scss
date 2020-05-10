@@ -1,0 +1,26 @@
+.main-content-wrapper {
+    #todos-wrapper {
+        h4 {
+            padding: 10px 20px;
+            margin: 0px;
+            background: #464c50;
+            color: #c3c3c3;
+        }
+        .list-group {
+            .list-group-item {
+                background: #555e65;
+                border-radius: 0px;
+                color: #fff;
+            }
+        }
+    }
+    form {
+        padding: 20px;
+        background-color: #555e65;
+        input {
+            border: 0;
+            box-shadow: none;
+            border-radius: 0;
+        }
+    }
+}
